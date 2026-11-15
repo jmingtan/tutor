@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tutor</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1d1d1f; --bg:#fafafa; --muted:#6b6b70; --line:#e2e2e6; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#ececf0; --bg:#141416; --muted:#9a9aa2; --line:#2a2a2f; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:24px 16px 48px; }
+  h1 { margin:0 0 4px; } p.lede { color:var(--muted); margin:0 0 24px; }
+  h2 { font-size:1.05rem; margin:28px 0 8px; border-bottom:1px solid var(--line); padding-bottom:4px; }
+  ul { list-style:none; padding:0; margin:0; } li { padding:8px 0; }
+  a { color:inherit; font-weight:600; } li span { display:block; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tutor</h1>
+  <p class="lede">Interactive explainers and simulations.</p>
+  <h2>Cybersecurity</h2>
+  <ul id="security"><!-- FaunTutor adds entries here: <li><a href="sims/security/slug/">Title</a><span>One line</span></li> --></ul>
+  <h2>AI</h2>
+  <ul id="ai"><!-- FaunTutor adds entries here --></ul>
+</main>
+</body>
+</html>
